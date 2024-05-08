@@ -22,6 +22,9 @@ from dataclasses import asdict, dataclass
 from enum import Enum
 from pathlib import Path
 from typing import List, Optional
+from dotenv import load_dotenv
+
+load_dotenv()
 
 import reka
 import requests
@@ -149,6 +152,7 @@ def evaluate(example: Example, evaluator: Evaluator) -> Example:
     """Evaluates the generation and populates the score and explanation fields."""
     include_image = evaluator == Evaluator.REKA_CORE
     evaluator_prompt = make_evaluator_prompt(example, include_image=include_image)
+    reka.API_KEY = os.getenv("REKA_API_KEY")
     evaluator_response = reka.chat(
         human=evaluator_prompt,
         media_url=example.media_url if include_image else None,
