@@ -22,7 +22,12 @@ from dataclasses import asdict, dataclass
 from enum import Enum
 from pathlib import Path
 from typing import List, Optional
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    import subprocess
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'python-dotenv'])
+    from dotenv import load_dotenv
 
 load_dotenv()
 
