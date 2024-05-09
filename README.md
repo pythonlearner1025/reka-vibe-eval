@@ -1,6 +1,6 @@
 # Vibe-Eval-Smol
 
-Evaluation of small 1.68B-8B size models on [reka-vibe-eval](https://github.com/reka-ai/reka-vibe-eval). Reka-flash and Claude-3-haiku included for comparison with medium-size models.
+Evaluation of small 1.68-8B size models on [reka-vibe-eval](https://github.com/reka-ai/reka-vibe-eval). Reka-flash and Claude-3-haiku included for comparison with medium-size models.
 
 Vibe-Eval Score (%)
 | Model           | hard       | normal     | all         | parameters |
