@@ -15,6 +15,7 @@ Vibe-Eval Score (%)
 | [LLava-Phi-3-mini-4k-instruct](https://huggingface.co/MBZUAI/LLaVA-Phi-3-mini-4k-instruct) | 29.75    | 37.13      | 34.39       | 3.8B       |
 | [Moondream2](https://huggingface.co/vikhyatk/moondream2)      | 24.24      | 38.61      | 33.3        | 1.86B      |
 | [Nouse-Hermes2-Vision-Alpha](https://huggingface.co/NousResearch/Nous-Hermes-2-Vision-Alpha) | 25.51 | 25.74 | 25.66       | 7B         |
+
 see this [spreadsheet](https://docs.google.com/spreadsheets/d/1TJmfGOqMyyVaclFz_EsAZozutAvA8bWjal2IC2LVGr8/edit?usp=sharing) for more details
 
 *NOTE: to the best of my knowledge, Reka-flash, Claude-Haiku, and Llama3-VILA are the only models trained on multiple images*
