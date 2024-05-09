@@ -2,6 +2,8 @@
 
 Evaluation of small 1.68-8B size models on [reka-vibe-eval](https://github.com/reka-ai/reka-vibe-eval). Reka-flash and Claude-3-haiku included for comparison with medium-size models.
 
+all model generations are in ```evals```
+
 Vibe-Eval Score (%)
 | Model           | hard       | normal     | all         | parameters |
 |-----------------|------------|------------|-------------|------------|
