@@ -9,6 +9,7 @@ Vibe-Eval Score (%)
 |-----------------|------------|------------|-------------|------------|
 | Reka-flash      | 39.2       | 52.2       | 59.9        | 21B        |
 | Claude-3-haiku-20240307 | 38.5 | 49.8    | 56.4        | 20B        |
+| Reka Edge       | 32.2       | 53.1       | 45.4        | 7B         |
 | [Qwen-VL-Chat](https://huggingface.co/Qwen/Qwen-VL-Chat)    | 30.87      | 47.19      | 41.2        | 8B         |
 | [LLAVA-llama3-8b](https://huggingface.co/xtuner/llava-llama-3-8b) | 31.75      | 45.86      | 40.61       | 8B         |
 | [qresearch/llama-3-vision-alpha](https://huggingface.co/qresearch/llama-3-vision-alpha)       | 34.69      | 43.49      | 40.26       | 8B         |
